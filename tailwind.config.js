@@ -14,10 +14,11 @@ module.exports = {
         extend: {
             colors:{
                 'dark': '#0E172A',
-                'dark-box': '#1E293B'
+                'dark-box': '#1E293B',
+                primary:'#E99971'
             },
             fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                sans: ['Proxima Nova', ...defaultTheme.fontFamily.sans],
             },
         },
     },

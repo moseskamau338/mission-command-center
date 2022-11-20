@@ -55,7 +55,7 @@ const showingNavigationDropdown = ref(false);
                                                 <path d="M256,64v384c112,0,192-85.968,192-192C448,149.952,368,64,256,64z" class="transition-all fill-slate-500 group-hover:fill-[#ea9971]"></path>
                                             </g>
                                         </g>
-                                        
+
                                     </g>
                                 </svg>
                             </button>
@@ -77,6 +77,9 @@ const showingNavigationDropdown = ref(false);
                                     <template #content>
                                         <DropdownLink class="dark:bg-dark dark:text-slate-400" :href="route('logout')" method="post" as="button">
                                             Log Out
+                                        </DropdownLink>
+                                        <DropdownLink class="dark:bg-dark dark:text-slate-400" :href="route('settings')" as="button">
+                                           Settings
                                         </DropdownLink>
                                     </template>
                                 </Dropdown>
